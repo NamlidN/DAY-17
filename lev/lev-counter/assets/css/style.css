@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:30rem;
+    width: 30rem;
+    gap: 2rem;
+    border-radius: 1rem;
+    background: linear-gradient(to right top,  blue, rgb(172, 65, 154), rgb(201, 17, 170));
+    
+}
+.rech{
+    display:flex;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+ 
+}
+h2{
+    margin: .5rem;
+    color: #121212;
+}
+input{
+    font-size: 10pt;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to left bottom,  blue, rgb(172, 65, 154), rgb(201, 17, 170));
+    border-radius: 1rem;
+    width:4rem ;
+    padding: .5rem;
+    margin: .5rem;
+}
